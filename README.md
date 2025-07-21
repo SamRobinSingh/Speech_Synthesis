@@ -69,11 +69,13 @@ This is achieved through:
    ```bash
    pip install -r requirements.txt
 3. **Install Chocolatey (Windows only)**
+   
    Follow instructions: https://chocolatey.org/install
-4. **Install FFmpeg (required for Whisper)**
+   
+6. **Install FFmpeg (required for Whisper)**
    ```bash
    choco install ffmpeg
-5. **Run the main program**
+7. **Run the main program**
    ```bash
    python main.py
 
