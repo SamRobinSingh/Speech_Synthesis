@@ -78,6 +78,25 @@ This is achieved through:
 7. **Run the main program**
    ```bash
    python main.py
+   
+## 📁 Project Structure
 
+| File/Folder              | Description                                             |
+|--------------------------|---------------------------------------------------------|
+| `main.py`                | Main driver script for full voice pipeline              |
+| `app.py`                 | (Optional) API or Gradio interface                      |
+| `kokoro-v1_0.pth`        | Pretrained Kokoro model weights (TTS)                   |
+| `received_audio.wav`     | Input WAV audio from user                               |
+| `temp_audio.wav`         | Final spoken answer (TTS output)                        |
+| `text_command_model.h5`  | Classifier for fixed speech commands (optional)         |
+| `tokenizer.pkl`          | Tokenizer for language model                            |
+| `label_encoder.pkl`      | Label encoder for classification tasks                  |
+| `WakeWordModel.ppn`      | Wake word detector file                                 |
+| `samples/`               | Contains test config, audio, and model examples         |
+| `voices/`                | Documentation files and saved models                    |
+| `requirements.txt`       | Python dependencies                                     |
+| `README.md`              | This documentation                                      |
+
+---
 
 
